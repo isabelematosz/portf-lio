@@ -9,8 +9,8 @@ html{
     scroll-behavior: smooth;
 }
 :root{
-    --primaria: #ccc910;
-    --secundaria: #cf5808;
+    --primaria: #cc10a3;
+    --secundaria: #6508cf;
     --escuro: #302f2f;
     --maisEscuro: #000000;
     --claro: #e2e8f0;
@@ -74,10 +74,10 @@ padding: 50px;
 
 .foto-perfil{
     
-width: 500px;
-height: 500px;
-/*box-shadow: 0 0 20px rgba(255, 186, 58, 0.3); */
-border-radius: 10%;
+width: 300px;
+height: 300px;
+box-shadow: 0 0 20px rgba(255, 58, 189, 0.3); 
+border-radius: 50%;
 flex:1;
 }
 .nome{
@@ -85,7 +85,7 @@ font-size: 70px ;
 
 }
 .destaque {
-    color: #FFD700;
+    color: #cc10a3;;
     font-weight: bold;
     transition: 0.3s;
 
@@ -110,14 +110,16 @@ font-size: 1.5rem;
 color: var(--claro);
 text-align: center;
 }
-.rede{
-font-size: 1rem;
-color: var(--claro);
-text-align: center;
-
+.redes-texto {
+    padding: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ccc;
 }
+
 .botao{
-margin-top: 25rem;
 display: flex;
  gap: 15px;
 
@@ -128,7 +130,7 @@ display: flex;
     border: 2px  solid var(--vidro) ;
     backdrop-filter: blur(10px);
     background:rgba(225, 225, 225, 0.08) ;
-    color: #FFD700;
+    color: #cc10a3;;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
@@ -181,14 +183,16 @@ margin: 0 auto;
 }
 .habilidades-card{
 
-background:  rgba(26, 23, 23, 0.08) ;
+background:  rgba(225, 225, 225, 0.05) ;
 border-radius: 16px;
 backdrop-filter: blur(10px);
 border: 1px solid var(--vidro);
+overflow: hidden;
 padding: 1.5rem ;
 }
 .caixa-textos-habilidade{
 padding: 0.5rem; 
+
 }
 
 .info-habilidades{
@@ -213,6 +217,7 @@ padding: 6rem 2rem ;
 text-align: center;
 font-size: 2.5rem ;
 margin-bottom: 50px;
+
 }
 
 .projetos-card:hover{
@@ -245,6 +250,7 @@ object-fit: cover;
 
 .caixa-textos-projeto{
    padding: 1.5rem; 
+   color: var(--primaria);
 }
 
 .info-projetos{
@@ -291,7 +297,7 @@ outline: none;
 
 .campo-form:focus{
 border-color: var(--secundaria);
-box-shadow: 0 0 10px rgba(240, 227, 47, 0.3);
+box-shadow: 0 0 10px rgba(240, 47, 198, 0.3);
 
 }
 
@@ -313,7 +319,7 @@ transition: all 0.5 ease;
 
 .botao-form:hover{
     transform: translateY(-4px);
-box-shadow: 0 5px 15px rgba(249, 253, 17, 0.4);
+box-shadow: 0 5px 15px rgba(253, 17, 182, 0.4);
 
 }
 
